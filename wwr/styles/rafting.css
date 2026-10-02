@@ -1,4 +1,4 @@
-```css:root {
+:root {
     --primary-color: #055a05;
     --secondary-color: #f4a261;
     --accent1-color: #204653;
@@ -93,16 +93,16 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
-footer .socialmedia {
+footer {
     display: flex;
     gap: 10px;
 }
 
-footer .socialmedia img {
+footer img {
     width: 40px;
     height: 40px;
+    background-color: var(--secondary-color);
 }
-
-```
