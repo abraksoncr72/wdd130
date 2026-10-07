@@ -192,12 +192,6 @@ footer {
     color: #ffffff;
 }
 
-footer p {
-    margin: 0;
-    padding: 0;
-    color: #ffffff;
-}
-
 .socialmedia {
     display: flex;
     justify-content: flex-end;
