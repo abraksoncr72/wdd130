@@ -211,7 +211,9 @@ footer nav.socialmedia {
     object-fit: contain;
 }
 
-s (max-width: 650px) {
+@media screen {}
+
+(max-width: 650px) {
     header {
         grid-template-columns: 1fr;
         justify-items: center;
