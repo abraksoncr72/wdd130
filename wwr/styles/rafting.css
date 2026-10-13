@@ -1,12 +1,12 @@
 :root {
     --primary-color: #055a05;
+    --accent1-color: #333333;
     --accent2-color: #e9c46a;
-
     --heading-font: 'Playfair Display', Georgia, serif;
     --body-font: 'Satoshi', system-ui, sans-serif;
 }
 
-* {
+    {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -88,18 +88,9 @@ header nav a:hover {
     width: 100%;
     padding: 16px;
     text-align: center;
-    background-color: var(--accent1-color);
-    color: #ffffff;
-    opacity: 0.85;
-}
-
-.hero h1 {
-
-    position: absolute;
     color: #ffffff;
     background-color: rgba(0, 0, 0, 0.5);
-    /* Adds a 50% dark overlay behind text for readability */
-    padding: 10px;
+    z-index: 3;
 }
 
 .hero article {
