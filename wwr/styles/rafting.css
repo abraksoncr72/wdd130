@@ -24,6 +24,7 @@ h2 {
     text-align: center;
 }
 
+/* ---------- HEADER: CSS GRID for logo + nav layout ---------- */
 header {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -38,6 +39,7 @@ header img {
     height: auto;
 }
 
+/* ---------- NAV: CSS FLEX for horizontal links ---------- */
 nav {
     display: flex;
     justify-content: flex-end;
@@ -164,6 +166,7 @@ nav a:hover {
     font-size: 0.9rem;
 }
 
+/* ---------- FOOTER ---------- */
 footer {
     display: flex;
     justify-content: space-between;
